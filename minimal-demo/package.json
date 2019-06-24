@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "mobx": ">4.2.0",
+    "mobx-react": ">5.1.0",
+    "mobx-state-tree": ">2.x",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-grid-layout": "0.15.x",
+    "react-mst-grid-layout": "^0.1.9-beta"
   },
   "devDependencies": {
     "react-scripts": "2.1.8"
