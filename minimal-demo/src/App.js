@@ -41,7 +41,12 @@ class App extends Component {
     return (
       <div className="App">
         <header style={{height:'6em'}}>
-          <p>The simplest possible demo of <a href="https://github.com/svenberglund/react-mst-grid-layout"><code>react-mst-grid-layout</code></a></p>
+          <p>This is a simplistic demo of <a href="https://github.com/svenberglund/react-mst-grid-layout"><code><strong>react-mst-grid-layout</strong></code></a>.<br/>
+            It is mostly ment as a <a href="https://github.com/svenberglund/rmgl-minimal-demo">getting-started code-example</a>.<br/> 
+            For the full capabilities of this framework take a look
+            at the <a href="https://svenberglund.github.io/react-mst-grid-layout/">full blown demo</a>.
+            
+          </p>
         </header>
         <RMGL.MstGridLayout  // The grid component
           compactType="vertical" // default : none
