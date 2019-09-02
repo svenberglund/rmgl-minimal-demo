@@ -1,6 +1,9 @@
+import RMGL from 'react-mst-grid-layout';
 import React from 'react';
 
-export default class GridElementAwsome{
+export default class GridElementAwsome extends RMGL.GridElementSuper{
+        
+        // Override
         static renderElement(i, sm) {
 
             // The only rule here is that you shall use the i parameter as key for the enclosing div.
