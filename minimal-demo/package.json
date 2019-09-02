@@ -8,11 +8,11 @@
     "mobx-state-tree": ">2.x",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-grid-layout": "0.15.x",
-    "react-mst-grid-layout": "^0.1.9-beta"
+    "react-grid-layout": "^0.16.6",
+    "react-mst-grid-layout": "^0.1.12-beta"
   },
   "devDependencies": {
-    "react-scripts": "2.1.8"
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
